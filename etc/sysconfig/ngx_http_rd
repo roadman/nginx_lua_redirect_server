@@ -1,0 +1,11 @@
+# Configuration file for the nginx service
+
+# set this to the location of the nginx configuration file
+NGINX=/usr/local/ngx_http_rd/sbin/nginx
+
+# Alternatives for reverse proxy server or app server
+#NGINX=/usr/sbin/nginx.rep
+#NGINX=/usr/sbin/nginx.app
+
+# set this to the location of the nginx configuration file
+NGINX_CONF_FILE=/usr/local/ngx_http_rd/conf/nginx.conf
